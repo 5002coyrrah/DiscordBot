@@ -7,3 +7,11 @@ This is a discord bot I developed. I intergrated a neural network inside of it, 
 Feel free to use this but please make sure to give me credit
 
 if you encounter any errors or have any feature requests/queries feel free to dm me on twitter or discord @HarryOC493#5941
+
+Usage:
+  You Need to install the requirements.txt using pip3
+  There is one script called train.py this script is used to train the neural net in case your not happy with the current training I have done
+  There is another script called main.py this is the actual bot scipt, all you need to do is run this script on a machine connected to the internet and is capable
+  of running a neural net.
+  Inside of the sciript there is a line of code called "client.run('123456xxx')" in this line you need to pase your bot token between the ' '
+  Besides this its fairly self-explanatory
