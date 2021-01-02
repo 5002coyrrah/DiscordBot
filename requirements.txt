@@ -1,0 +1,4 @@
+discord.py==1.5.1
+numpy==1.18.5
+random2==1.0.1
+keras==2.4.3
