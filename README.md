@@ -6,7 +6,7 @@ This is a discord bot I developed. I intergrated a neural network inside of it, 
 
 Feel free to use this but please make sure to give me credit
 
-if you encounter any errors or have any feature requests/queries feel free to dm me on twitter or discord @HarryOC493#5941
+if you encounter any errors or have any feature requests/queries feel free to dm me on twitter or discord @HarryOC493#5941 or submit an issue
 
 Usage:
   You Need to install the requirements.txt using pip3
