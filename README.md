@@ -2,14 +2,25 @@
 
 Hi,
   
-This is a discord bot I developed. I intergrated a neural network inside of it, currently I trained the neural network to play tic tac toe, but I am currently working on making it do a lot more fun and complex things such as chatbots and more complex games.
+This is a discord bot I developed. It utilizes a neural network, currently I trained the neural network to play tic tac toe, but I am currently working on making it do a lot more fun and complex things such as chatbots and more complex games.
 
 if you encounter any errors or have any feature requests/queries feel free to dm me on twitter or discord @HarryOC493#5941 or submit an issue
 
 Usage:  
   -- You Need to install the requirements.txt using pip3  
-  -- train.py this script is used to train the neural net in case your not happy with the current training I have done you probably will as I have only trained it with epochs=100, batch_size=100 so it works but its pretty easy to beat  
-  -- There is another script called main.py this is the actual bot scipt, all you need to do is run this script on a machine connected to the internet and is 
+  -- train.py use this file to retrain the network in the event your not happy with its current training, or if you wish to change an 
+     aspect off the game
+     My network:
+         Epochs    : 100
+         Batch Size: 100
+
+-- main.py is the actual bot scipt, all you need to do is run this script on a machine connected to the internet and is 
      capable of running a neural net  
-  -- Inside of the sciript there is a line of code called "client.run('123456xxx')" in this line you need to pase your bot token between the ' '  
-  -- Besides this its fairly self-explanatory  
+-- <h2>main.py<h2>
+   Setup:
+      Connecting your discord bot:
+          Create a bot on discord <a href='https://discordpy.readthedocs.io/en/stable/discord.html'>here!</a>
+          Using the api key you generated paste it into this line on main.py
+          "client.run("123456xxx")"
+  
+      main.py is the actual game, this script imports the trained model, interfaces with discord and runs the actual game
