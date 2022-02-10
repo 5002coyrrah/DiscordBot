@@ -22,5 +22,5 @@ Usage:
           Create a bot on discord <a href='https://discordpy.readthedocs.io/en/stable/discord.html'>here!</a>
           Using the api key you generated paste it into this line on main.py
           "client.run("123456xxx")"
-  
-      main.py is the actual game, this script imports the trained model, interfaces with discord and runs the actual game
+          
+   main.py is the actual game, this script imports the trained model, interfaces with discord and runs the actual game
