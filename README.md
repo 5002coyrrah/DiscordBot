@@ -16,7 +16,7 @@ Usage:
 
 -- main.py is the actual bot scipt, all you need to do is run this script on a machine connected to the internet and is 
      capable of running a neural net  
--- <h2>main.py<h2>
+-- main.py
    Setup:
       Connecting your discord bot:
           Create a bot on discord <a href='https://discordpy.readthedocs.io/en/stable/discord.html'>here!</a>
